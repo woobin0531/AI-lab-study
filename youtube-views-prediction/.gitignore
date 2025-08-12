@@ -1,0 +1,19 @@
+# venv & cache
+.venv/
+__pycache__/
+*.pyc
+
+# secrets
+kaggle.json
+.env
+
+# data (원본 데이터는 추적 안 함)
+data/*
+!data/.gitkeep
+
+# results (산출물은 기본 제외)
+results/*
+!results/.gitkeep
+
+# notebooks 캐시
+.ipynb_checkpoints/
